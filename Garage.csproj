@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Garage.Common\Garage.Common.csproj" />
+    <ProjectReference Include="..\Garage.Tests\Garage.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
